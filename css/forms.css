@@ -1,82 +1,23 @@
+:root{
+    --eni: calc(100% - 300px);
+    --hun: 200px;
+}
+
 body{
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
 }
 
 .kv{
-    width: 150px;
-    height: 150px;
+    width: var(--eni);
+    min-height: var(--hun);
     background: red;
-    float: left;
-    position: absolute;
-
-    /* animation-delay: 2s; */
-    animation-name: kruqla;
-    animation-duration: 4s;
-    animation-iteration-count: 2;
-    /* animation-direction:alternate-reverse; */
-    animation-timing-function:linear;
-    animation-fill-mode:both;
+    /* float: left; */
 }
 
-
-
-@keyframes kadrat_hereketi {
-    from{
-        left: 0px;
-    }
-    to{
-        left: 1500px;
-    }
-}
-
-
-
-@keyframes kadrat_rengle {
-    from{
-        background: red;
-    }
-    to{
-        background: blue;
-    }
-}
-
-
-@keyframes kruqla {
-    0%{
-        left: 0px;
-        top: 200px;
-        /* transform: rotate(0deg);
-        background: red; */
-    }   
-
-    25%{
-        left: 300px;
-        top: 0px;
-        /* transform: rotate(90deg);
-        background: blue; */
-    }
-
-    50%{
-        left: 300px;
-        top: 300px;
-        /* transform: rotate(180deg);
-        background: green;
-        border-radius: 50%; */
-    }
-
-    75%{
-        left: 0px;
-        top: 700px;
-        /* transform: rotate(280deg);
-        background: purple; */
-    }
-
-    100%{
-        left: 600px;
-        top: 600px;
-        /* transform: rotate(360deg);
-        background: brown; */
-    }
-
+.kv2{
+    width: var(--eni);
+    min-height: var(--hun);
+    background: blue;
+    /* float: left; */
 }
