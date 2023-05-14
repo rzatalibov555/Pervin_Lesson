@@ -1,23 +1,70 @@
-:root{
-    --eni: calc(100% - 300px);
-    --hun: 200px;
-}
-
 body{
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 0px;
 }
 
-.kv{
-    width: var(--eni);
-    min-height: var(--hun);
-    background: red;
-    /* float: left; */
+
+/* Helper TOOL list start ======================== */
+
+.margin-0{
+    margin: 0px;
 }
 
-.kv2{
-    width: var(--eni);
-    min-height: var(--hun);
-    background: blue;
-    /* float: left; */
+.padding-0{
+    padding: 0px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+/* Helper TOOL list end ======================== */
+
+.main{
+    width: 100%;
+    min-height: 500px;
+    background: lightgray;
+    float: left;
+}
+
+.menu{
+    width: 100%;
+    min-height: 100px;
+    float: left;
+}
+
+.rLogo, .rMenu{
+    width: 50%;
+    min-height: 100px;
+    background:#2C3E50;
+    color: white;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.rMenu ul{
+    padding: 0px;
+}
+
+.rMenu ul li{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.rMenu ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.rMenu ul li a:hover{
+    color: #1abc9c;
 }
