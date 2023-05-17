@@ -1,0 +1,137 @@
+.demo{
+    width: 1400px;
+    min-height: 500px;
+    background: red;
+    float: left;
+    opacity: 0.6;
+}
+
+
+
+/* Max - azalan sira ile : 600px,  550px,  505px,  400px,  300px,  200px,  100px */
+/* Min - artan sira ile :  1100px, 1500px, 1600px, 1800px, 1900px */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    .demo{
+        width: 100%;
+        background: blue;
+        min-height: 200px;
+    }
+
+}
+
+
+@media only screen and (max-width: 550px) {
+    .demo{
+        width: 100%;
+        background: rgb(12, 209, 239);
+     
+    }
+
+}
+
+@media only screen and (max-width: 505px) {
+    .demo{
+        width: 100%;
+        background: rgb(77, 5, 135);
+     
+    }
+
+} */
+
+
+/* 
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: yellow;
+}
+ */
+
+
+
+
+/* @media screen and (max-width: 900px) and (min-width: 600px) {
+    .demo {
+      width: 50px;
+      min-height: 50px;
+      background: red;
+      float: left;
+    }
+  } */
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .demo{
+        width: 50%;
+        background: green;
+        
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+    .demo{
+        width: 90%;
+        background: purple;
+        
+    }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+    .demo{
+        width: 10%;
+        background: yellow;
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+    .demo{
+        width: 30%;
+        background: rgb(134, 116, 116);
+        display: block;
+    }
+} */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* / */
+
+
+
+
+
+.myText {
+    position: absolute;
+    top: 209px;
+    left: 15px;
+    z-index: 2;
+    transition: top 0.3s, color 0.3s; /* Add transitions for smooth animation */
+    background: white;
+    padding: 0 10px;
+}
+  
+.myInp {
+    position: relative;
+    top: 200px;
+  }
+  
+.myInp:focus + .myText{
+    top: 200px;
+    color: red;
+    z-index: 2;
+  }
+  
