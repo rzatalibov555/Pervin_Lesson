@@ -1,109 +1,72 @@
-/* #demo1{
-    color: red!important;
-} 
 
-#Demo1{
-    color: green;
+.main_menu{
+  width: 320px;
+  height: 160px;
+  /* background: blue; */
+  float: left;
 }
 
-.elmeddin{
-    color: purple!important;
+.menu{
+  width: 70px;
+  height: 70px;
+  background: red;
+  float: left;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  /* padding: 20px;
+  box-sizing: border-box; */
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  /* padding: 20px 5px;
+  box-sizing: border-box; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu:hover{
+  
+  box-shadow: 5px 5px 12px #564a4a,
+  5px 5px 12px #564a4a,
+  5px 5px 12px #564a4a;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.vk{
+  width: 150px;
+  height: 150px;
+  /* background-color: red; */
+  float: left;
+  margin: 20px;
+  transition: 0.5s;
+
+}
+
+/* .vk:hover{
+  box-shadow: 28px 20px 5px #564a4a, 
+  -21px -23px 5px blue, 
+  -48px 30px 16px green;
+  transform: rotate(180deg);
+  border-radius: 50%;
+  background: blueviolet;
 } */
 
-/* .pervin::first-line{
-    color: white;
-    background: blue;
-    font-family: Arial;
-    font-size: 20px;
-    font-weight: bold;
-    word-spacing: 10px;
-    letter-spacing: 10px;
-} */
-
-.pervin::first-letter{
-    color: red;
-    /* color: white; */
-    /* background: blue; */
-    font-family: "Freestyle Script";
-    font-size: 20px;
-    font-weight: bold;
-    /* word-spacing: 10px; */
-    /* letter-spacing: 10px; */
+.p{
+  transition: 0.5s;
 }
 
-.pervin{
-    transition: 0.5s;
+.p:hover{
+  text-shadow: 28px 20px 5px #564a4a, 
+  -11px -13px 5px blue, 
+  -28px 20px 5px green;
 }
-
-.pervin:hover{
-    background: purple;
-    color: white;
-    /* font-size: 30px; */
-    
-}
-
-.menu li::marker{
-    color: red;
-}
-
-.menu li{
-    color: blue;
-}
-
-::selection{
-    color: white;
-    background: red;
-}
-
-
-
-
-/* unvisited link */
-a:link {
-    color: #FF0000;
-  }
-  
-  /* visited link */
-a:visited {
-    color: #00FF00;
-  }
-  
-  /* mouse over link */
-a:hover {
-    color: #FF00FF;
-  }
-  
-  /* selected link */
-a:active {
-    color: #0000FF;
-  }
-
-
-
-  .menu li:first-child{
-    background: green;
-  }
-
-  .menu li:last-child{
-    background: purple;
-  }
-
-  .menu li:nth-child(10n+0){
-    background: blue;
-    color: white;
-  }
-
-  /* .menu li:nth-child(odd){
-    background: blue;
-    color: white;
-  }
-
-  .menu li:nth-child(even){
-    background: green;
-    color: white;
-  } */
-
-
-/* .sonuncu{
-    background: brown;
-} */
