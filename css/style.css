@@ -1,72 +1,68 @@
-
-.main_menu{
-  width: 320px;
-  height: 160px;
-  /* background: blue; */
-  float: left;
+:root{
+    --bg: lightgreen;
 }
 
-.menu{
-  width: 70px;
-  height: 70px;
-  background: red;
-  float: left;
-  margin: 5px;
-  color: white;
-  text-align: center;
-  /* padding: 20px;
-  box-sizing: border-box; */
-  transition: 0.5s;
-  cursor: pointer;
-  border-radius: 5px;
-  /* padding: 20px 5px;
-  box-sizing: border-box; */
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body{
+    margin: 0px auto;
+    padding: 0px;
 }
 
-.menu:hover{
-  
-  box-shadow: 5px 5px 12px #564a4a,
-  5px 5px 12px #564a4a,
-  5px 5px 12px #564a4a;
+.padding20{
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.menu a{
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
+.main{
+    width: 1000px;
+    min-height: 500px;
+    /* background: grey; */
+    float: left;
+}
+
+.header{
+    width: 1000px;
+    min-height: 70px;
+    background: var(--bg);
+    float: left;
+}
+
+.center{
+    width: 1000px;
+    min-height: 320px;
+    /* background: green; */
+    float: left;
+    margin: 20px 0;
 }
 
 
-.vk{
-  width: 150px;
-  height: 150px;
-  /* background-color: red; */
-  float: left;
-  margin: 20px;
-  transition: 0.5s;
-
+.sol{
+    width: 320px;
+    min-height: inherit;
+    background: var(--bg);
+    float: left;
+    text-align: justify;
 }
 
-/* .vk:hover{
-  box-shadow: 28px 20px 5px #564a4a, 
-  -21px -23px 5px blue, 
-  -48px 30px 16px green;
-  transform: rotate(180deg);
-  border-radius: 50%;
-  background: blueviolet;
-} */
-
-.p{
-  transition: 0.5s;
+.orta{
+    width: 320px;
+    min-height: inherit;
+    background: var(--bg);
+    float: left;
+    margin: 0px 20px;
+    text-align: justify;
 }
 
-.p:hover{
-  text-shadow: 28px 20px 5px #564a4a, 
-  -11px -13px 5px blue, 
-  -28px 20px 5px green;
+.sag{
+    width: 320px;
+    min-height: inherit;
+    background: var(--bg);
+    float: left;
+    text-align: justify;
+}
+
+.footer{
+    width: 1000px;
+    min-height: 70px;
+    background: var(--bg);
+    float: left;
 }
