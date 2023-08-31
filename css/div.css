@@ -1,94 +1,10 @@
-:root {
-    --arxa_fon: #FCD800;
-    --yazi_rengi: black;
-  }
 
 body{
-    margin: 0 auto;
-    padding: 0px;
-}
-
-.p-20{
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.p-40{
-    padding: 40px;
-    box-sizing: border-box;
-}
-
-.font_size-20{
-    font-size: 20px;
-}
-
-.font-bold{
-    font-weight: bold;
-}
-
-.main{
-    width: 1000px;
-    min-height: 500px;
-    /* background: grey; */
-    float: left;
-}
-
-.header{
-    width: 100%;
-    min-height: 70px;
-    background: var(--arxa_fon);
-    float: left;
-    margin-bottom: 20px;
-    color: var(--yazi_rengi);
-}
-
-.nav{
-    width: 200px;
-    min-height: 470px;
-    background: var(--arxa_fon);
-    float: left;
-    color: var(--yazi_rengi);
-}
-
-.right{
-    width: 780px;
-    min-height: 470px;
-    /* background: green; */
-    float: left;
-    margin-left: 20px;
-}
-
-.top{
-    width: 780px;
-    min-height: 380px;
-    /* background: rgb(214 57 193); */
-    float: left;
-    /* margin-left: 20px; */
-}
-
-.article{
-    width: 580px;
-    min-height: 380px;
-    background: var(--arxa_fon);
-    float: left;
-    color: var(--yazi_rengi);
-    
-}
-
-.ads{
-    width: 180px;
-    min-height: 380px;
-    background: var(--arxa_fon);
-    float: left;
-    margin-left: 20px;
-    color: var(--yazi_rengi);
-}
-
-.footer{
-    width: 780px;
-    min-height: 70px;
-    background: var(--arxa_fon);
-    float: left;
-    margin-top: 20px;
-    color: var(--yazi_rengi);
-}
+ 
+    background-image: url('https://www.presse-citron.net/app/uploads/2020/05/Henry-Cavill-e1589105977950.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: 30px;
+}   
