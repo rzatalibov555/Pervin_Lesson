@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    background-image: url('https://www.usatoday.com/gcdn/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 500px;
+    min-height: 600px;
+    background: #000000de;
+    font-family: "Monotype Corsiva";
+    font-size: 20px;
+    color: white;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+.demo{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+
+.textArea{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    background: #F7DCA1;
+ 
+    font-size: 20px;
+    border: 1px solid #F7DCA1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: transparent;
+    color: #F7DCA1;
+    border: 1px solid #F7DCA1;
+}
