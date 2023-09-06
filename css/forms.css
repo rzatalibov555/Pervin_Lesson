@@ -27,10 +27,8 @@ body{
     background: #0016ff;
     float: left;
     position: absolute;
-    /* left: 100px;
-    top: 100px; */
     opacity: 0.6;
-    box-shadow: ;
+   
 }
 
 .text{
@@ -42,8 +40,7 @@ body{
     color: white;
     float: left;
     position: absolute;
-    /* left: 100px;
-    top: 50px; */
+ 
    
     
 }
@@ -51,3 +48,64 @@ body{
 .main:hover{
     box-shadow: 5px 5px 10px #0079ff;
 }
+
+
+
+
+
+
+
+/* .myDiv::before{
+    content: "Menim";
+}
+
+.myDiv::after{
+    content: "Rzadir";
+} */
+
+
+.kv{
+    width: 150px;
+    height: 150px;
+    background: red;
+    float: left;
+    border: 5px solid blue;
+    position: relative;
+    left: 600px;
+    top: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.kv::before{
+    content: "Test";
+    width: 200px;
+    height:20px;
+    background: blue;
+    float: left;
+    position: fixed;
+    right: 550px;
+ 
+}
+
+.kv::after{
+    content: "";
+    width: 200px;
+    height:20px;
+    background: green;
+    float: left;
+    position: fixed;
+    left:370px;
+
+}
+
+
+
+
+
+
+
