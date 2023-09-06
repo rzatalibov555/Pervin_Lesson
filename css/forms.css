@@ -4,108 +4,74 @@ body{
     padding: 0px;
 }
 
-.main{
-    width: 250px;
-    height: 250px;
+
+.menu{
+    width: 100%;
+    min-height: 70px;
     background: grey;
     float: left;
-    position: relative;
-    left: 200px;
-    top: 200px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;   
+}
+
+.menu ul{
+    padding: 0px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
     transition: 0.5s;
+    border-radius: 2px;
+
+    /* display: ali; */
 }
 
-.main img{
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
-}
-
-.tul{
-    width: 250px;
-    height: 250px;
-    background: #0016ff;
-    float: left;
-    position: absolute;
-    opacity: 0.6;
-   
-}
-
-.text{
-    width: 250px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.menu ul li a{
     color: white;
-    float: left;
-    position: absolute;
- 
-   
-    
+    text-decoration: none;
 }
 
-.main:hover{
-    box-shadow: 5px 5px 10px #0079ff;
-}
-
-
-
-
-
-
-
-/* .myDiv::before{
-    content: "Menim";
-}
-
-.myDiv::after{
-    content: "Rzadir";
-} */
-
-
-.kv{
-    width: 150px;
-    height: 150px;
+.menu ul li:hover{
     background: red;
+}
+
+
+.demo{
+    width: 100%;
+    min-height: 600px;
+    background: tomato;
     float: left;
-    border: 5px solid blue;
-    position: relative;
-    left: 600px;
-    top: 300px;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    /* flex-flow: wrap; */
+
+    /* flex-wrap:wrap; */
+
+    /* flex-direction:column-reverse; */
+
+    /* justify-content: center;
+    align-items: stretch; */
+
+    /* gap: 30px 50px; */
 }
 
-
-.kv::before{
-    content: "Test";
-    width: 200px;
-    height:20px;
+.card{
+    width: 50px;
+    height: 50px;
     background: blue;
     float: left;
-    position: fixed;
-    right: 550px;
- 
+    margin: 5px;
+    color:white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.kv::after{
-    content: "";
-    width: 200px;
-    height:20px;
-    background: green;
-    float: left;
-    position: fixed;
-    left:370px;
-
-}
-
-
-
-
-
-
-
