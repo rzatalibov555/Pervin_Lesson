@@ -1,77 +1,82 @@
-
 body{
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
 }
 
-
-.menu{
-    width: 100%;
-    min-height: 70px;
-    background: grey;
-    float: left;
-    padding: 0px 50px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;   
-}
-
-.menu ul{
-    padding: 0px;
-}
-
-.menu ul li{
-    list-style-type: none;
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    box-sizing: border-box;
-    cursor: pointer;
-    transition: 0.5s;
-    border-radius: 2px;
-
-    /* display: ali; */
-}
-
-.menu ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-.menu ul li:hover{
+.kv{
+    width: 150px;
+    height: 150px;
     background: red;
+    float: left;
+    position: absolute;
+
+    /* animation-delay: 2s; */
+    animation-name: kruqla;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    /* animation-direction:alternate-reverse; */
+    animation-timing-function:linear;
+    animation-fill-mode:both;
 }
 
 
-.demo{
-    width: 100%;
-    min-height: 600px;
-    background: tomato;
-    float: left;
 
-    display: flex;
-    /* flex-flow: wrap; */
-
-    /* flex-wrap:wrap; */
-
-    /* flex-direction:column-reverse; */
-
-    /* justify-content: center;
-    align-items: stretch; */
-
-    /* gap: 30px 50px; */
+@keyframes kadrat_hereketi {
+    from{
+        left: 0px;
+    }
+    to{
+        left: 1500px;
+    }
 }
 
-.card{
-    width: 50px;
-    height: 50px;
-    background: blue;
-    float: left;
-    margin: 5px;
-    color:white;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@keyframes kadrat_rengle {
+    from{
+        background: red;
+    }
+    to{
+        background: blue;
+    }
+}
+
+
+@keyframes kruqla {
+    0%{
+        left: 0px;
+        top: 200px;
+        /* transform: rotate(0deg);
+        background: red; */
+    }   
+
+    25%{
+        left: 300px;
+        top: 0px;
+        /* transform: rotate(90deg);
+        background: blue; */
+    }
+
+    50%{
+        left: 300px;
+        top: 300px;
+        /* transform: rotate(180deg);
+        background: green;
+        border-radius: 50%; */
+    }
+
+    75%{
+        left: 0px;
+        top: 700px;
+        /* transform: rotate(280deg);
+        background: purple; */
+    }
+
+    100%{
+        left: 600px;
+        top: 600px;
+        /* transform: rotate(360deg);
+        background: brown; */
+    }
+
 }
