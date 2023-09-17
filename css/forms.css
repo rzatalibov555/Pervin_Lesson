@@ -24,12 +24,20 @@ body{
     justify-content: center;
 }
 
+.fs110{
+    font-size: 110px;
+}
+
+.colorWhite{
+    color: white;
+}
+
 /* Helper TOOL list end ======================== */
 
 .main{
     width: 100%;
     min-height: 500px;
-    background: lightgray;
+    /* background: lightgray; */
     float: left;
 }
 
@@ -39,6 +47,9 @@ body{
     width: 100%;
     min-height: 100px;
     float: left;
+    position: fixed;
+    top: 0px;
+    
 }
 
 .rLogo, .rMenu{
@@ -86,6 +97,7 @@ body{
     float: left;
 
     padding: 6rem 0px;
+    padding-top: 200px;
     /* padding-top: calc(6rem + 104px);
     padding-bottom: 6rem; */
 }
@@ -174,3 +186,113 @@ body{
 }
 
 /* Content section end ======================== */
+
+
+
+/* Portfolio section start ======================== */
+
+.portfolio{
+    width: 100%;
+    min-height: 500px;
+    /* background: grey; */
+    float: left;
+    padding: 6rem 0px;
+}
+
+.portfolio .rContentTextDiv h1{
+    font-size: 3rem!important;
+    margin-top: 0px!important;
+}
+
+
+.seconColorText{
+    color: #2c3e50!important;
+}
+
+.starDiv2{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    float: left;
+    position: relative;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.starDiv2::before{
+    content: "";
+    width: 150px;
+    height: 5px;
+    background: #2c3e50;
+    float: left;
+    
+    position: absolute;
+    left: -160px;
+    top: 22px;
+}
+
+.starDiv2::after{
+    content: "";
+    width: 150px;
+    height: 5px;
+    background: #2c3e50;
+    float: left;
+    
+    position: absolute;
+    right: -160px;
+    top: 22px;
+}
+
+
+.mainItem{
+    width: 100%;
+    min-height: 500px;
+    /* background: green; */
+    float: left;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rContainer{
+    width: 1620px;
+    min-height: 300px;
+    /* background: red; */
+    float: left;
+}
+.rItem{
+    width: 500px;
+    height: 360px;
+    /* background: blue; */
+    float: left;
+    border-radius: 10px;
+    margin: 20px;
+    /* overflow: hidden; */
+
+    position: relative;
+}
+
+.rItem img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tul{
+    width: 100%;
+    height: 360px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.tul:hover{
+  background: rgba(26, 188, 156, 0.9);
+  opacity: 0.9;
+}
+
+/* Portfolio section end ======================== */
