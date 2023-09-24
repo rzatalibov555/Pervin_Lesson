@@ -1,36 +1,25 @@
-
-.rTurbo{
+.rHeader, .rFooter{
     width: 100%;
-    min-height: 70px;
-    background-color: red;
+    min-height:70px;
+    background: #0068FF;
     float: left;
 }
 
-.rRza{
+.rHeader{
+    margin-bottom: 15px;
+}
+
+.rFooter{
+    margin-top: 15px;
+}
+
+.rNav, .rSidebar, .rMainContent{
     width: 100%;
-    min-height: 70px;
-    background-color: purple;
+    min-height:470px;
+    background: #67A4FF;
     float: left;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
 }
 
-.rRza ul {
-    padding: 0px;
-    margin: 0px;
+.rMainContent{
+    background: #A5A6AB;   
 }
-
-.rRza ul li{
-    float: left;
-    list-style-type: none;
-    color: white;
-    margin: 5px;
-    padding: 5px;
-    font-size: 20px;
-}
-
-.enli{
-    width: 100%;
-}
-
