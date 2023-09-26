@@ -1,25 +1,54 @@
-.rHeader, .rFooter{
-    width: 100%;
-    min-height:70px;
-    background: #0068FF;
-    float: left;
+.colorWhite{
+    color: white;
 }
 
-.rHeader{
+.dis_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font_size_20{
+    font-size: 20px;
+}
+
+.marBot15{
     margin-bottom: 15px;
 }
 
-.rFooter{
+.marTop15{
     margin-top: 15px;
 }
 
-.rNav, .rSidebar, .rMainContent{
+.rHeader, .rFooter{
     width: 100%;
-    min-height:470px;
+    min-height: 70px;
+    background: #0069FF;
+    float: left;
+    
+}
+
+.rLeft, .rSideBar, .rMainContent{
+    width: 100%;
+    min-height: 500px;
     background: #67A4FF;
     float: left;
 }
 
 .rMainContent{
-    background: #A5A6AB;   
+    background: #A5A6AB;
+}
+
+@media only screen and (max-width: 767px) {
+    .rLeft, .rMainContent, .rSideBar{
+        min-height: 150px;
+    }
+
+    .rMainContent{
+        margin: 15px 0px;
+    }
+
+    .mobStyle{
+        padding: 0px;
+    }
 }
