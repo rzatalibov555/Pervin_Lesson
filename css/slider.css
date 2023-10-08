@@ -1,0 +1,15 @@
+.rMyImg{
+	width: 100%;
+	height: 700px !important;
+    object-fit: cover;
+    object-position: top;
+}
+
+.rMyNav{
+    margin-bottom: 0px;
+    border-radius: 0px;    
+}
+
+.of{
+    object-fit: cover;
+}
