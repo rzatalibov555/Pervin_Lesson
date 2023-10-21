@@ -1,2 +1,12 @@
 
+body{
+    background: blue;
+}
 
+.colorW{
+    color: white;
+}
+
+.bg-purple{
+    background: purple;
+}
