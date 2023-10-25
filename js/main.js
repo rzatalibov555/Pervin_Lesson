@@ -85,8 +85,15 @@
 
 
 
-var my_name = "Parvin"
-var my_surname = "Qehremanli"
+// var my_name = "Parvin"
+// var my_surname = "Qehremanli"
 
-console.log("Menim adim " + my_name + " " + my_surname )
-console.log(`Menim adim ${my_name} ${my_surname}dir. Menim 25 yasim var men ${my_surname} holdinqin direktoruyam`)
+// console.log("Menim adim " + my_name + " " + my_surname )
+// console.log(`Menim adim ${my_name} ${my_surname}dir. Menim 25 yasim var men ${my_surname} holdinqin direktoruyam`)
+
+
+
+
+
+
+
