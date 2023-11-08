@@ -1,53 +1,39 @@
+// function addData(){
 
-// () - function
-// [] - Array // Massiv
-// {} - Object
+//     let a = document.getElementById("input1");
+//     let b = document.getElementById("myText");
 
-function elmeddin(){    
-    a = 5
-    b = 10
-    c = 20
-    console.log(a+b+c)
+//     b.innerHTML = a.value;
+//     a.value = ""
+// }
+
+
+        
+
+// function addData( soyad, ad = "Rza", yaw = "18", Status = "Telebe"){
+//     console.log(`Menim adim ${ad} ${soyad}. Mənim ${yaw} yaşım var. Statusu: ${Status}`)
+//     // console.log("Menim adim "+ ad + " " + soyad + ". Mənim " + yaw + " yaşım var.")
+// }
+
+
+// addData("Talibov")
+
+
+// function chBg(){
+//     document.getElementById('demo1').style.backgroundColor = "blue";
+// }
+
+// function chBg2(){
+//     document.getElementById('demo2').style.backgroundColor = "purple";
+// }
+
+// function chBg3(){
+//     document.getElementById('demo3').style.backgroundColor = "green";
+// }
+
+
+
+function chBgPro(e){
+    e.style.background = "transparent";
 }
 
-function seyfeddin(){
-    alert("Hello uwaqlar")
-}
-
-function seyfeddin2(){
-    document.write("SetHub Js")
-
-}
-
-
-
-function demo(){
-    document.getElementById("myText").innerHTML = "(+99455) 342 22 33"
-    // document.getElementById("myText").style.color = "red"
-}
-
-function getText_and_writeToTag(){
-    let input1 = document.getElementById("input1").value
-    let select1 = document.getElementById("select1").value
-    let input2 = document.getElementById("input2").value
-  
-    let myText = document.getElementById("myText")
-
-    if(select1 == "+"){
-        myText.innerHTML = parseInt(input1) + parseInt(input2)
-    }else if(select1 == "-"){
-        myText.innerHTML = parseInt(input1) - parseInt(input2)
-    }else if(select1 == "*"){
-        myText.innerHTML = parseInt(input1) * parseInt(input2)
-    }else if(select1 == "/"){
-        myText.innerHTML = parseInt(input1) / parseInt(input2)
-    }else{
-        myText.innerHTML = "Yalnis emeliyyat"
-    }
-  
-}
-
-function getCar(){
-    let car = document.getElementById("demo3").value
-    console.log(car)
-}
