@@ -2,8 +2,6 @@
 
 
 function blue(e, color){
-
-
     e.style.backgroundColor = color;
 }
 
