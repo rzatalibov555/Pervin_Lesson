@@ -1,4 +1,126 @@
-div{
+/* 
+.demo{
+    width: 150px;
+    height: 150px;
+    background: red;
+    float: left;
+    border: 2px solid transparent;
+    
+}
+
+.second{
+    background: transparent;
+    border: 2px solid red;
+}
+ */
+
+
+
+
+
+
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.chatbox{
+    width: 200px;
+    height: 300px;
+    background: red;
+    float: left;
+    transition: 0.5s;
+
+    position: fixed;
+    bottom: 0px;
+    right: -200px;
+    
+}
+
+.activate{
+    width: 50px;
+    height: 50px;
+    background: red;
+    float: left;
+    margin-left: -50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 50%;
+
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+.open{
+    right: 0px;
+    
+}
+
+.bgGreen{
+    background: green;
+    border-radius: 0px;
+    animation-name: none;
+}
+
+
+@keyframes anime {
+
+    0%{
+        margin-top: 0px;
+    }
+
+    25%{
+        margin-top: -15px;
+    }
+
+    50%{
+        margin-top: 0px;
+    }
+
+    75%{
+        margin-top: 15px;
+    }
+
+    100%{
+        margin-top: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div{
     width: 150px;
     height: 150px;
     float: left;
@@ -6,7 +128,7 @@ div{
     margin: 5px;
 
     
-}
+} */
 
 .disFlex{
     display: flex;

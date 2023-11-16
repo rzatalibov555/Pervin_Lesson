@@ -17,5 +17,43 @@ function goBack(e,defaultColor){
     e.classList.remove("kvadrat","disFlex")
 }
 
-// add - elave et
+// add    - elave et
 // remove - silmek
+// toggle - 1 defe elave edir 1 defe silir 
+
+// 
+
+// function actionDemo(e){
+//     e.classList.toggle("second")
+//     e.classList.toggle("disFlex")
+    
+   
+    
+   
+
+//     if(text == "open"){
+//         e.innerHTML = text
+//         text = "close"
+//     }else{
+//         e.innerHTML = text
+//         text = "open"
+//     }
+
+    
+// }
+
+
+let text = "open"
+
+function chatboxActivate(){
+    document.getElementById('chat').classList.toggle("open")
+    document.getElementsByClassName('activate')[0].classList.toggle("bgGreen")
+
+    if(text == "open"){
+        document.getElementsByClassName('activate')[0].innerHTML = text
+        text = "close"
+    }else{
+        document.getElementsByClassName('activate')[0].innerHTML = text
+        text = "open"
+    }
+}
